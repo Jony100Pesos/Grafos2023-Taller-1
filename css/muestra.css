@@ -1,0 +1,19 @@
+.contenido{
+    width: min(90%,1200px);
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.imagen{
+    grid-column: 1/2;
+}
+
+.tabla{
+    grid-column: 2/3;
+}
+
+.grafica{
+    grid-column: 1/3;
+}
